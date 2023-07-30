@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         width: '100%',
         paddingVertical: 10,
         position: 'absolute',
-        top: 8,
+        top: 20,
         zIndex: 100,
         backgroundColor: "#5539FF",
 

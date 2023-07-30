@@ -78,7 +78,7 @@ const Login = ({ navigation }) => {
             <Text style={formTextLinkCenter}>
                 Don't have an account? <Text style={{ color: 'white' }}
                     onPress={() => navigation.navigate('Signup_EnterEmail')}
-                >Signup</Text>
+                >Sign up</Text>
             </Text>
 
         </View>

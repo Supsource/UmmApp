@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
+import { connect } from 'mongoose';
 require('dotenv').config();
 
 
-mongoose.connect(process.env.mongo_URL).then(
+connect(process.env.mongo_URL).then(
     () => {
         console.log('Connected to database');
     }
